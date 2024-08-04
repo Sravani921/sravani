@@ -41,3 +41,19 @@ public class SimpleMethodExample {
         System.out.println("The sum is: " + result);
     }
 }
+
+#feature202 working by sharu on HDFC application on nov 2023
+// File: Dog.java
+
+// A subclass of Animal
+public class Dog extends Animal {
+
+    // Public method to access protected members
+    public void displayInfo() {
+        // Accessing the protected field from the superclass
+        System.out.println("Species: " + species);
+
+        // Calling the protected method from the superclass
+        makeSound();
+    }
+}
